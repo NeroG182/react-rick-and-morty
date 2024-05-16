@@ -52,7 +52,7 @@ function CharacterList() {
     }*///esto es lo mismo que esto loading ? <h1>Cargando</h1> pero se coloca abajo para que no espere a cargar toda la pagina a que sea false
     return (//recorre el Arreglo de characters.map(character => es lo que recorre)
 
-        <div className='container' style={{ paddingBottom: '100px' , paddingTop: '100px'}}>
+        <div className='container bg-dark' style={{ paddingBottom: '100px' , paddingTop: '100px'}}>
 
             <NavPage page={page} setPage={setPage} totalPages={totalPages}/>
 
